@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body,div,p,h1,h2,h3,h4,h5,h6,li,ol,ul,dl,dt,dd{
+    font-size: 12px;
+    font-family: "宋体";
+    color:#333;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+a:hover{
+    color:#B61D1D;
+}
+input,img{
+    margin:0;
+    padding:0;
+    border:0 none;
+    outline-style: none;
+}
+.clearfix:after{
+    content:" ";
+    height: 0;
+    line-hight:0;
+    display:block;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.hotcolor{
+    color:red;
+}
+.w{
+    width: 983px;
+    margin: 0 auto;
+}
+.logo{
+    height: 70px;
+    line-height: 80px;
+    padding-top: 10px;
+}
+.logo .r-logo{
+    position: relative;
+    top: -5px;
+    left: 15px;
+}
+.bjt{
+    height: 475px;
+    background-color: #3CBD58;
+}
+.bjt .w{
+    width: 990px;
+    height: 475px;
+    background: url("../JD登陆/images/bg.jpg") no-repeat;
+}
+.bjt .w .kuang{
+    width: 346px;
+    height: 369px;
+    display: inline-block;
+    background-color: white;
+    float: right;
+    margin-top: 40px;
+}
+.bjt .w .kuang .top-k{
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.bjt .w .kuang .top-k a{
+    width: 171px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 800;
+    display: inline-block;
+    text-align: center;
+}
+.bjt .w .kuang .top-k b{
+    border: 1px solid #F4F4F4;
+    font-size: 18px;
+}
+.bjt .w .kuang .cen-k{
+    height: 263px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.bjt .w .kuang .ww{
+    width: 307px;
+    margin: 0 auto;
+}
+.bjt .w .kuang .cen-k .top-ww{
+    height: 24px;
+    width: 305px;
+    line-height: 24px;
+    color: #333333;
+    display: inline-block;
+    border: 1px solid #FFE57D;
+    background-color: #FFF6D2;
+    margin-top: 9px;
+}
+.bjt .w .kuang .cen-k .top-ww b{
+    height: 14px;
+    width: 10px;
+    display: inline-block;
+    background: url("../JD登陆/images/pwd-icons-new.png") no-repeat -104px -133px;
+    margin: -5px 10px 0 18px;
+    vertical-align: middle;
+}
+.bjt .w .kuang .cen-k .cen-ww{
+    width: 305px;
+    height: 38px;
+    display: inline-block;
+    border: 1px solid #BDBDBD;
+    line-height: 38px;
+    font-size: 14px;
+    color: #767676;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bjt .w .kuang .cen-k .cen-ww b{
+    float: left;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    background: url("../JD登陆/images/pwd-icons-new.png") no-repeat 0px 0px;
+    border-right: 1px solid #BDBDBD;
+    margin-right: 10px;
+}
+.bjt .w .kuang .cen-k .cen-ww i{
+    float: right;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url("../JD登陆/images/pwd-icons-new.png") no-repeat -104px 0px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.bjt .w .kuang .cen-k .cen-ww input{
+    width: 220px;
+}
+.bjt .w .kuang .cen-k .cen-ww .b{
+    background: url("../JD登陆/images/pwd-icons-new.png") no-repeat -48px 0px;
+}
+.bjt .w .kuang .cen-k .bot-ww{
+    margin-top: 13px;
+}
+.bjt .w .kuang .cen-k .bot-ww input{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.bjt .w .kuang .cen-k .sskuang{
+    margin-top: 17px;
+    width: 305px;
+    height: 33px;
+    display: inline-block;
+    border: 1px solid #CB2A2D;
+}
+.bjt .w .kuang .cen-k .sskuang .ss{
+    width: 305px;
+    height: 33px;
+    display: inline-block;
+    border: 1px solid #E85356;
+    background-color: #E4393C;
+    color: white;
+    line-height: 31px;
+    text-align: center;
+    font-size: 18px;
+}
+.bot-k p{
+    /*height: 50px;*/
+    line-height: 50px;
+}
+.bot-k p .pb{
+    border: 1px solid #DBCCDB;
+    font-size: 12px;
+    margin: 0 15px;
+}
+.bot-k p .pb2{
+    width: 19px;
+    height: 16px;
+    display: inline-block;
+    background: url("../JD登陆/images/pwd-icons-new.png") no-repeat -104px -75px;
+    vertical-align: middle;
+}
+.sercice{
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.sercice .a img{
+    vertical-align: middle;
+}
+.sercice .a{
+    display: block;
+    margin-right: 0;
+}
+.sercice b{
+    border: 1px solid #DBCCDB;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.sercice p{
+    margin-top: 50px;
+    text-align: center;
+}
